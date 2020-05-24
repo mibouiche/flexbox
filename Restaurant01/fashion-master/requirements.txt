@@ -1,0 +1,11 @@
+flask_sqlalchemy
+flask
+flask_migrate
+sqlalchemy_utils
+mysqlclient
+mysql-connector-python
+flask_mail
+flask-admin
+flask_uploads
+werkzeug < 1.0.0
+Pillow

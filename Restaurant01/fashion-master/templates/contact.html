@@ -1,0 +1,175 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Vietnamese Cuisine | Four Seasons Restaurant| All Rights Reserved | MIB Dev |</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Attire Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+<!-- //Custom Theme files --> 
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- //js -->
+<!-- web-fonts -->  
+<link href="//fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Shojumaru&display=swap" rel="stylesheet">
+<!-- //web-fonts -->
+</head>
+<body style="background-color:#faebd7 ;"> 
+	<!-- banner -->
+	<div class="agileits-banner about-w3banner">
+		<div class="bnr-agileinfo">
+			<div class="banner-top">
+				<div class="container">  
+					<p><span class="glyphicon glyphicon-earphone"></span> +1 (712) 252-9890 </p>
+				</div>
+			</div>
+			<div class="banner-w3text"> 
+				<h2>Four Seasons</h2>
+			</div>
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="container">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							Menu
+						</button>
+						<h1><a href="{{url_for('index')}}">Four Seasons</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-left">
+							<ul class="nav navbar">
+								<li><a href="{{url_for('index')}}" >Home</a></li>
+								<li><a href="{{url_for('about')}}" >About Us</a></li>
+								<li><a href="{{url_for('category')}}">MENU</a></li>
+								<li><a href="{{url_for('gallery')}}">Pictures</a></li>
+								<li><a href="{{url_for('contact')}}" class="active">Contact</a></li>
+								<li><a href="{{ url_for('login') }}">Login</a></li>
+							</ul>
+						</div> 
+						<div class="clearfix"> </div>  
+					</div>
+				</div>	
+			</div>	
+			<!-- //navigation -->
+		</div>
+	</div>
+	<!-- //banner --> 
+	<!-- contact -->		
+	<div class="contact" style="background-color: white;"> 
+		<div class="container">
+			<h3 class="agileits-title">Contact us</h3>
+			<div class="contact-agileinfo">
+				<div class="col-md-7 contact-right"> 
+					<form action="{{url_for('contact')}}" method="POST">  
+						<input type="text" class="email" name="email" placeholder="Email" required="">
+						<input type="text" name="subject" placeholder="objet" required="">
+						<textarea name="message" placeholder="Message" required=""></textarea>
+						<input type="submit" value="SUBMIT" > 
+					</form>
+				</div>
+				<div class="col-md-5 contact-left">
+					<div class="address">
+						<h5>Address:</h5>
+						<p><i class="glyphicon glyphicon-home"></i> 401 W 7th St, Sioux City, IA 51103 </p>
+					</div>
+					<div class="address address-mdl">
+						<h5>Phones:</h5>
+						<p><i class="glyphicon glyphicon-earphone"></i> +1 (712) 252-9890</p>
+						<p><i class="glyphicon glyphicon-phone"></i> +1 (712) 252-9890</p>
+					</div>
+					<div class="address">
+						<h5>Email:</h5>
+						<p><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:info@example.com">mail@example.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div> 
+	</div>
+	<div class="agileits-w3layouts-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.5814562049204!2d-96.41448304889285!3d42.50044997907552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878e0788c7a14f97%3A0x51a2b908123a9cc3!2sFour%20Seasons%20Restaurant!5e0!3m2!1sen!2sus!4v1587099344683!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	<!-- //contact -->	 
+	<!-- w3-agilesale --> 
+	<div class="w3-agilesale welcome" style="background-color:#faebd7 ;"> 
+		<div class="container">  
+			<h3 class="agileits-title">WE DELIVER TO YOUR DOOR</h3>
+			<p><a href="{{url_for('contact')}}">Contact Us</a></p>
+		</div> 
+	</div> 
+	<!-- //w3-agilesale --> 
+	<!-- copy rights start here -->
+	<div class="copy-w3right">
+		<div class="container"> 
+			<div class="top-nav bottom-w3lnav">
+				<ul>
+					<li><a href="{{url_for('index')}}" >Home</a></li>
+					<li><a href="{{url_for('about')}}">About us</a></li>
+					<li><a href="{{url_for('category')}}">MENU</a></li>
+					<li><a href="{{url_for('gallery')}}">Pictures</a></li>
+					<li><a href="{{url_for('contact')}}">Contact</a></li>
+					<li><a href="{{ url_for('login') }}">Login</a></li>
+				</ul>
+			</div>
+			<div class="w3lsfoter-icons social-icon">
+				<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+				<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a> 
+				<a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a> 
+			</div> 
+		</br>
+			<p>© 2015 Four Seasons Restaurant. All Rights Reserved | Design by  <a href="MIB Dev" target="_blank">|MIB Dev|</a> </p>
+		</div>
+	</div>
+	<!-- //copy right end here -->  
+	<script src="js/SmoothScroll.min.js"></script> 
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->  
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
